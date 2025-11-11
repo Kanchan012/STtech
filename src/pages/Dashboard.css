@@ -1,0 +1,83 @@
+.dashboard{
+    display: flex;
+}
+.not{
+    display: flex;
+    align-items: center;
+}
+.dashed{
+    margin: 20px 20px 0px 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.dash{
+    margin: 20px 20px 0px 20px;
+    padding:  20px;
+    line-height: 2.5;
+    background-color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+.d1{
+    border-radius: 18px;
+    padding-left: 6px;
+    height: 33px;
+    width: 120px;
+    text-align:left;
+    background-color: #405E83;
+    color: white;
+    
+}
+.dash1 img{
+    border-radius: 100%;
+    object-fit: cover;
+    align-content: center;
+    margin-top: 5px;
+}
+.dash1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dh{
+   padding-left: 20px;
+}
+.welcome img{
+    margin: 15px;
+    width: 1220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.trophy{
+    display: flex;
+    gap: 50px;
+    padding: 60px;
+}
+.trophy1{
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 4px #00000066;
+    line-height: 2;
+    margin:auto;
+}
+.trophyicon{
+    font-size: 40px;
+    color: #405E83;
+    background-color: #405E8333;
+    border-radius: 100%;
+    padding: 8px;
+}
+.p{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}

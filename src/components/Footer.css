@@ -1,0 +1,65 @@
+.footer{
+   /* background-image: url("../assets/Homeimage/Rectangle 32.png");
+    background-size:cover;
+    padding: 70px 0px 20px 0px;
+    background-repeat: no-repeat;
+    background-color: #e0e0e0; */
+    background: linear-gradient(180deg, #002859 -1.28%, #003372 31.13%, #003A81 60.5%, #00408F 72.65%, #0056BF 100%);
+}
+.foot{
+    display: flex;
+    gap: 120px;
+    padding: 50px;
+    line-height: 1.5;
+    color: white;  
+}
+li{
+  list-style-type: none;
+}
+.logotext {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  gap: 8px;
+  font-size: 10px;
+}
+.reacticon{
+  justify-content: left;
+  gap: 50px;
+  color:blue;
+  background-color: white;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  width: 20px;
+  height:20px;
+}
+.footer6{
+    line-height: 2;
+    padding: 20px;
+    background: linear-gradient(180deg, #002859 -1.28%, #003372 31.13%, #003A81 60.5%, #00408F 72.65%, #0056BF 100%);
+}
+.follow h2{
+    color: white;
+}
+.follow{
+    line-height: 2;
+    gap: 30px;
+    margin: 20px;
+}
+.reicon{
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+}
+.straight-line {
+  border: none;              
+  height: 1px;               
+  background-color: white;   
+  width: 100%;              
+}
+.f6{
+    display: flex;
+    color: white;
+    justify-content:space-between;
+    padding:10px;
+}

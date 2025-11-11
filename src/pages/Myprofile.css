@@ -1,0 +1,95 @@
+.dashboard{
+    display: flex;
+}
+.dash{
+    margin: 20px 20px 0px 20px;
+    padding:  20px;
+    line-height: 2.5;
+    background-color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+.p1{
+    border-radius: 18px;
+    padding-left: 2px;
+    height: 33px;
+    width: 120px;
+    text-align:left;
+    background-color: #405E83;
+    color: white;   
+}
+
+.pf{
+    margin: 10px;
+}
+.pf1{
+    display: flex;
+    align-items: center;
+}
+.pf1 img{
+    border-radius: 50px;
+    object-fit: cover;
+}
+.portray{
+    margin: 20px 20px 0px 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 90%;
+}
+.pro1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.changepp{
+    margin: 20px;
+     
+}
+ 
+.changepp img{
+    border-radius: 100px;
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+   margin-left: 40px;
+}
+.changepp button{
+  box-shadow: 2px 2px 6px #00000040;
+  border: none;
+   background-color: white;
+}
+
+.port img{
+    width: 97%;
+    margin: 20px;
+}
+.biodata1{
+    display: flex;
+    gap: 120px;
+}
+.biodata2,.biodata3{
+    display: flex;
+    gap: 160px;
+}
+.biodata4,.biodata9{
+    display: flex;
+    gap: 165px;
+}
+.biodata5{
+    display: flex;
+    gap: 173px;
+}
+.biodata6{
+    display: flex;
+    gap: 194px;
+}
+.biodata7,.biodata8{
+    display: flex;
+    gap: 124px;
+}
+.bio{
+    padding: 40px; 
+    line-height: 2.5;
+}

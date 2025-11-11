@@ -1,0 +1,26 @@
+.bag{
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    line-height: 1.5;
+}
+.bag img{
+    width: 360px;
+    height: 270px;
+}
+.Cartbag{
+    padding: 40px; 
+  background-color: #e9e9e9;
+}
+.Cartbag p{
+    font-size: 15px;
+}
+.bag button{
+    background: #003372;
+   border-radius: 5px;
+   color: white;
+   width: 120px;
+   height: 27px;
+   border: 0 0 4px #00000040;
+}

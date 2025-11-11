@@ -1,0 +1,281 @@
+.profile{
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.profile img{
+    border-radius: 40px;
+    border: 4px solid yellow;
+}
+.profile-text{
+    line-height:1.8;
+}
+.profile-text h2{
+    color: #003372;
+}
+.profile-text button{
+    width: 100px;
+    height: 20px;
+    background: #003372;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 40px;
+}
+table{
+    background-color: white;
+}
+.about{
+    background: #01295C;
+    padding: 40px;
+    display: flex;
+    gap: 180px;
+    color: white;
+    text-align: justify;
+}
+.about-text h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-text p{
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 120px;
+}
+.about img{
+    border-radius: 40px;
+    border: 4px solid yellow;
+    position: relative;
+    top: 20px;
+}
+.about-text button{
+    width: 100px;
+    height: 20px;
+    background: yellow;
+    color: blue;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.symbol{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  border: 2px solid black;
+  background-color: #000000B8;
+  margin-left: 60px;
+  color: yellow;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+}
+
+.course{
+    text-align: center;
+    line-height: 2;
+    background-color: #e1e1e1;
+    padding: 40px;
+}
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  justify-content: center;
+  gap: 65px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.course-card {
+  width: 250px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.course-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.course-content {
+  padding: 12px;
+}
+
+.price-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  background-color: #fcd34d;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #000;
+}
+
+.review {
+  color: #777;
+  font-size: 13px;
+}
+
+.course-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.instructor-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-cart {
+  background-color: #fcd34d;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #000;
+}
+
+.add-cart:hover {
+  background-color: #fbbf24;
+}
+
+.view-course {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 6px 0;
+  font-weight: 600;
+}
+
+.view-course:hover {
+  background-color: #f5f5f5;
+}
+
+.contact{
+    background: #01295C;
+    color: white;
+    text-align: center;
+    line-height: 1.5; 
+    padding: 40px;
+}
+.ec{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    line-height: 2;
+}
+.ec1{
+    background-color:#DADADA;
+    color: black;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.call{
+    color:#01295C;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+
+.home7 {
+  background-color: #e1e1e1;
+  text-align: center;
+  padding: 40px;
+}
+
+.home7 h2 p{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.home7 p {
+  max-width: 700px;
+  margin:0 auto 80px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.h7 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.home7text {
+  background: #fff;
+  width: 216px;
+  height: 266px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 3px solid #ccc;
+  margin:auto ;
+  display:block;
+  position: relative;
+  bottom: 65px;
+}
+
+.home7text h3 {
+  color: #004aad;
+ margin-bottom: 5px;
+}
+
+.home7text h6 {
+  color:black;
+  font-size: 13px;
+}
+
+.home7text p {
+  font-size: 15px;
+  color: black;
+  line-height: 1.4;
+}
+
+button .con {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+

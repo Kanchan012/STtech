@@ -1,0 +1,97 @@
+.header {
+  display: flex; 
+  justify-content: space-between;
+  background-color: #edc057; 
+  padding: 10px 20px;
+  color:black;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.logotext {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  gap: 8px;
+  font-size: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navlink:hover {
+  border-bottom: 2px solid blue;
+}
+
+.more select {
+  margin-left: 5px;
+  border: none;
+  background: none;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: white;
+  border-radius: 25px;
+  padding: 5px 5px;
+  box-shadow:0 0 3px black;
+}
+
+.search-box input {
+  border: none;
+  padding: 2px 6px;
+  margin: auto;
+  font-size: 14px;
+  border-radius: 25px;
+  height: 10px;
+  
+}
+
+
+.login-btn, .register-btn {
+  border: none;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.login-btn {
+  background-color: white;
+  color: blue;
+}
+
+.login-btn:hover {
+  background-color: whitesmoke;
+}
+
+.register-btn {
+  background-color: blue;
+  color: white;
+}
+
+.register-btn:hover {
+  background-color: #3d7bd2;
+}
+.worldicon {
+  color: white;
+}
+.ch{
+  color: blue;
+}
