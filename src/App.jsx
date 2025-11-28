@@ -8,7 +8,7 @@ import Instructorprofile from './pages/Instructorprofile'
 import Courses from './pages/Courses'
 import Cart from './pages/Cart';
 import Login from './pages/Login';
-import Signup from './pages/SIgnup';
+import Signup from './pages/Signup';
 import Aboutus from './pages/Aboutus';
 import Contact from './pages/Contact';
 import Dashboard from './pages/Dashboard';
