@@ -160,10 +160,6 @@ function Home() {
         <p>Some of our most popular courses</p> <br />
         <div className="explore">
           <h3>Explore Our Courses</h3> <br />
-          All Courses
-          <select name="All Courses" id="course">
-            All Courses
-          </select>
         </div>
         <div className="course-list">
           {/* Course Card 1 */}
